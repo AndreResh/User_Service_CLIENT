@@ -21,4 +21,6 @@ Body of person with role - ADMIN:
 Endpoints:
 - GET /api/client - to get list of users from second microservice
 
+EXAMPLE: http://localhost:3030/api/client
+
 Link for second microservice: https://github.com/AndreResh/User_Service_MAIN
