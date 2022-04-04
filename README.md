@@ -6,19 +6,19 @@ Instruction to run application:
 2) open downloaded file
 3) `docker-compose run -d` 
 
+Body of person with role - USER:
+{
+    "username":"user@yandex.ru",
+    "password":"user"
+}
+
+Body of person with role - ADMIN:
+{
+    "username":"admin@yandex.ru",
+    "password":"admin"
+}
+
 Endpoints:
-- GET /api/client - to get list of users from second microservice 
-    
-  - Body of person without authorities to this endpoint:
-    {
-         "username":"user@yandex.ru",
-         "password":"user"
-    }
-  - Body of person with authorities to this endpoint:
-    {
-         "username":"admin@yandex.ru",
-         "password":"admin"
-    }
-
-
+- GET /api/client - to get list of users from second microservice
+- 
 Link for second microservice: https://github.com/AndreResh/User_Service_MAIN
