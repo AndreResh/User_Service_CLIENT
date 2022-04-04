@@ -21,4 +21,4 @@ Endpoints:
     }
 
 
-Link for second microservice: https://github.com/AndreResh/User_Servic
+Link for second microservice: https://github.com/AndreResh/User_Service_MAIN
